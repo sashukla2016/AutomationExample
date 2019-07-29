@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GPS Test Automation Test Suites">
+
+	<listeners>
+		<listener
+			class-name="com.gps.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="GPS Test Automation Test Cases">
+		<classes>
+			<class name="com.gps.qa.testcases.GoalPageTest" />
+			<class name="com.gps.qa.testcases.LoginPageTest" />
+
+		</classes>
+	</test>
+</suite>

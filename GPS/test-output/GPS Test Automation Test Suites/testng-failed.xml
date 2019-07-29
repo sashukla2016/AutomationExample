@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [GPS Test Automation Test Suites]" parallel="methods">
+  <test thread-count="2" name="GPS Test Automation Test Cases(failed)" parallel="methods">
+    <classes>
+      <class name="com.gps.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gps.qa.testcases.LoginPageTest -->
+      <class name="com.gps.qa.testcases.GoalPageTest">
+        <methods>
+          <include name="userTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="titleValidationTest"/>
+        </methods>
+      </class> <!-- com.gps.qa.testcases.GoalPageTest -->
+    </classes>
+  </test> <!-- GPS Test Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [GPS Test Automation Test Suites] -->

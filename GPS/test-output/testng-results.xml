@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GPS Test Automation Test Suites" duration-ms="85805" started-at="2019-07-24T06:41:07Z" finished-at="2019-07-24T06:42:32Z">
+    <groups>
+    </groups>
+    <test name="GPS Test Automation Test Cases" duration-ms="85805" started-at="2019-07-24T06:41:07Z" finished-at="2019-07-24T06:42:32Z">
+      <class name="com.gps.qa.testcases.GoalPageTest">
+        <test-method status="PASS" signature="beforeSuiteEx()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="beforeSuiteEx" is-config="true" duration-ms="40" started-at="2019-07-24T06:41:07Z" finished-at="2019-07-24T06:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteEx -->
+        <test-method status="PASS" signature="beforeTestEx()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="beforeTestEx" is-config="true" duration-ms="1" started-at="2019-07-24T06:41:07Z" finished-at="2019-07-24T06:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestEx -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="9172" started-at="2019-07-24T06:41:26Z" finished-at="2019-07-24T06:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="titleValidationTest()[pri:1, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="titleValidationTest" duration-ms="30" started-at="2019-07-24T06:41:36Z" finished-at="2019-07-24T06:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="751" started-at="2019-07-24T06:41:36Z" finished-at="2019-07-24T06:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="9652" started-at="2019-07-24T06:41:36Z" finished-at="2019-07-24T06:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="goalCheckTest()[pri:2, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="goalCheckTest" duration-ms="147" started-at="2019-07-24T06:41:46Z" finished-at="2019-07-24T06:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goalCheckTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="794" started-at="2019-07-24T06:41:46Z" finished-at="2019-07-24T06:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="10117" started-at="2019-07-24T06:41:47Z" finished-at="2019-07-24T06:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateGoalTest()[pri:3, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="updateGoalTest" duration-ms="165" started-at="2019-07-24T06:41:57Z" finished-at="2019-07-24T06:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGoalTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="814" started-at="2019-07-24T06:41:57Z" finished-at="2019-07-24T06:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="9286" started-at="2019-07-24T06:41:58Z" finished-at="2019-07-24T06:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="userTest()[pri:4, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="userTest" duration-ms="200" started-at="2019-07-24T06:42:07Z" finished-at="2019-07-24T06:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="797" started-at="2019-07-24T06:42:08Z" finished-at="2019-07-24T06:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="10137" started-at="2019-07-24T06:42:09Z" finished-at="2019-07-24T06:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addingGoalTest(java.lang.String, java.lang.String)[pri:5, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="addingGoalTest" duration-ms="531" started-at="2019-07-24T06:42:19Z" data-provider="getTestData" finished-at="2019-07-24T06:42:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data provider -]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POM Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingGoalTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="859" started-at="2019-07-24T06:42:20Z" finished-at="2019-07-24T06:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="9741" started-at="2019-07-24T06:42:21Z" finished-at="2019-07-24T06:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addingGoalTest(java.lang.String, java.lang.String)[pri:5, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="addingGoalTest" duration-ms="873" started-at="2019-07-24T06:42:31Z" data-provider="getTestData" finished-at="2019-07-24T06:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data provider -]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Revisit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingGoalTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="946" started-at="2019-07-24T06:42:31Z" finished-at="2019-07-24T06:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTestEx()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="afterTestEx" is-config="true" duration-ms="3" started-at="2019-07-24T06:42:32Z" finished-at="2019-07-24T06:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestEx -->
+        <test-method status="PASS" signature="afterSuiteEx()[pri:0, instance:com.gps.qa.testcases.GoalPageTest@f6c48ac]" name="afterSuiteEx" is-config="true" duration-ms="0" started-at="2019-07-24T06:42:33Z" finished-at="2019-07-24T06:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteEx -->
+      </class> <!-- com.gps.qa.testcases.GoalPageTest -->
+      <class name="com.gps.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gps.qa.testcases.LoginPageTest@13deb50e]" name="setup" is-config="true" duration-ms="13392" started-at="2019-07-24T06:41:07Z" finished-at="2019-07-24T06:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.gps.qa.testcases.LoginPageTest@13deb50e]" name="loginTest" duration-ms="5515" started-at="2019-07-24T06:41:20Z" finished-at="2019-07-24T06:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gps.qa.testcases.LoginPageTest@13deb50e]" name="tearDown" is-config="true" duration-ms="908" started-at="2019-07-24T06:41:26Z" finished-at="2019-07-24T06:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gps.qa.testcases.LoginPageTest -->
+    </test> <!-- GPS Test Automation Test Cases -->
+  </suite> <!-- GPS Test Automation Test Suites -->
+</testng-results>
