@@ -62,12 +62,12 @@ public class GoalPageTest extends TestBase {
 		goalPage.navigateToGoals();
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 2)
 	public void updateGoalTest() {
 		goalPage.updateGoals();
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 3)
 	public void userTest() {
 		assertTrue(goalPage.userValidate(), "Unauthorized user");
 	}

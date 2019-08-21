@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [GPS Test Automation Test Suites]" parallel="methods">
-  <test thread-count="2" name="GPS Test Automation Test Cases(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GPS Test Automation Test Suites]">
+  <listeners>
+    <listener class-name="com.gps.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="GPS Test Automation Test Cases(failed)">
     <classes>
+      <class name="com.gps.qa.testcases.GoalPageTest">
+        <methods>
+          <include name="beforeTestEx"/>
+          <include name="beforeSuiteEx"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="titleValidationTest"/>
+          <include name="afterTestEx"/>
+          <include name="afterSuiteEx"/>
+        </methods>
+      </class> <!-- com.gps.qa.testcases.GoalPageTest -->
       <class name="com.gps.qa.testcases.LoginPageTest">
         <methods>
           <include name="tearDown"/>
@@ -10,14 +24,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.gps.qa.testcases.LoginPageTest -->
-      <class name="com.gps.qa.testcases.GoalPageTest">
-        <methods>
-          <include name="userTest"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="titleValidationTest"/>
-        </methods>
-      </class> <!-- com.gps.qa.testcases.GoalPageTest -->
     </classes>
   </test> <!-- GPS Test Automation Test Cases(failed) -->
 </suite> <!-- Failed suite [GPS Test Automation Test Suites] -->
